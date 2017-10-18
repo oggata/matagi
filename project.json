@@ -1,0 +1,30 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 30,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/TopLayer.js",
+        "src/GameLayer.js",
+        "src/Storage.js",
+        "src/Sound.js",
+        "src/Tank.js",
+        "src/Enemy.js",
+        "src/Bullet.js",
+        "src/Effect.js",
+        "src/Marker.js",
+        "src/Operation.js",
+        "src/Brain.js",
+        "src/BaseData.js",
+        "src/Item.js"
+    ]
+}
